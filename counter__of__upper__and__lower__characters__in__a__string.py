@@ -4,9 +4,9 @@ def counter_lower_upper_case(string):
     upper_case = 0
     for caracter in string:
         if('A'<=caracter<='Z'):
-            upper_case +=1
+            upper_case += 1
         elif('a'<=caracter<='z'):
-            lower_case+=1
+            lower_case += 1
         else:
             continue
     return lower_case,upper_case
